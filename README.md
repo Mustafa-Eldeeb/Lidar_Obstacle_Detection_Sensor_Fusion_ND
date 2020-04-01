@@ -1,6 +1,6 @@
 # Sensor Fusion Self-Driving Car Course
 
-<img src="https://github.com/awbrown90/SensorFusionHighway/blob/master/media/ObstacleDetectionFPS.gif" width="700" height="400" />
+<img src="imgs/img_detect.gif" width="700" height="400" />
 
 ### Welcome to the Sensor Fusion course for self-driving cars.
 
@@ -15,6 +15,21 @@ In this course we will be talking about sensor fusion, whch is the process of ta
 
 ## Installation
 
+
+
+
+#### Ubuntu
+
+```bash
+$> sudo apt install libpcl-dev
+$> cd ~
+$> git clone https://github.com/udacity/SFND_Lidar_Obstacle_Detection.git
+$> cd SFND_Lidar_Obstacle_Detection
+$> mkdir build && cd build
+$> cmake ..
+$> make
+$> ./environment
+```
 ### Linux Ubuntu 16
 
 Install PCL, C++
